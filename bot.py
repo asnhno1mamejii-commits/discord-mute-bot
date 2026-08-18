@@ -19,7 +19,7 @@ MUTE_TIME = "1:00"    # 毎日1時00分にミュート
 UNMUTE_TIME = "8:00"  # 毎日8時00分にミュート解除
 
 # 実行対象のボイスチャンネルID（※自分のチャンネルIDに書き換えてください）
-TARGET_CHANNEL_ID = yomo00987_92333
+TARGET_CHANNEL_ID = 1355163740026306752
 
 @tasks.loop(seconds=60)
 async def daily_schedule():
