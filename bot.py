@@ -15,8 +15,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 JST = pytz.timezone('Asia/Tokyo')
 
 # --- 毎日実行したい時間を設定（24時間表記） ---
-MUTE_TIME = "1:00"    # 毎日22時00分にミュート
-UNMUTE_TIME = "08:00"  # 毎日7時00分にミュート解除
+MUTE_TIME = "1:00"    # 毎日1時00分にミュート
+UNMUTE_TIME = "8:00"  # 毎日8時00分にミュート解除
 
 # 実行対象のボイスチャンネルID（※自分のチャンネルIDに書き換えてください）
 TARGET_CHANNEL_ID = yomo00987_92333
